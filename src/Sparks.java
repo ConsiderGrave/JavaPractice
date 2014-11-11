@@ -1,14 +1,14 @@
 
 public class Sparks {
 	
-  public static void main(String[]args){
+  public static void main(String[]args) throws InterruptedException{
 		
 	int speed = 1;
 		
 		
 	 do {
 		
-		
+		 Thread.sleep(1000);
 		 System.out.println("You are driving " + speed + " mph.");
 		
 		
